@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+
+.grid-items{
+    background-color: seagreen;
+    border: 1px solid rgb(0, 0, 0);
+    height: 50px;
+}
+
+
 .grid-container{
     display: grid;
     width: 80vw;
@@ -23,8 +31,3 @@
     grid-column: 4/5;
 }
 
-.grid-items{
-    background-color: seagreen;
-    border: 1px solid rgb(0, 0, 0);
-    height: 50px;
-}
